@@ -1,0 +1,52 @@
+.about-component{
+    margin: 55px 15vw;
+    color:#8892b0;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.left{
+    flex: 1;
+    padding: 1rem;
+    text-align: left;
+    width: 50vw;
+    font-size: larger;
+}
+
+.right{
+    flex: 1;
+    padding: 2rem;
+    padding-left: 5rem;
+}
+
+.intersets{
+    padding-bottom:2rem;
+}
+
+
+@media only screen and (max-width: 600px) {
+    .about-component{
+        margin: 25px 10vw;
+        color:#8892b0;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .left{
+       
+       
+        text-align: center;
+        width: 80vw;
+        font-size: larger;
+    }
+    
+    .right{
+        flex: 1;
+       
+        text-align: center;
+        width: 80vw;
+        font-size: larger;
+        padding-left: 0;
+    }
+}

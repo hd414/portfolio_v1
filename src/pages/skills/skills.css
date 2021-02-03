@@ -1,0 +1,93 @@
+.image-style{
+    height: 4rem;
+    width: 4rem;
+   
+}
+.frontend{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    /* width: 40vw; */
+    margin-left: 7rem;
+   
+}
+
+.backend{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    /* width: 30vw; */
+    margin-left: 7rem;
+}
+/* 
+.frontend-card{
+    display: flex;
+    flex-direction: column;
+    width: 50vw;
+    margin-left: 5rem;
+}
+
+.backend-card{
+    display: flex;
+    flex-direction: column;
+    width: 50vw;
+    margin-left: 5rem;
+} */
+
+.logo-name{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    box-shadow: 3px 3px  #03132c;
+    margin: 1rem;
+}
+
+.title-logo{
+    font-size: 10px;
+    
+}
+
+.logo-name:hover{
+    color:turquoise;
+    box-shadow: 5px 5px  #011027;
+    opacity: 0.7;
+}
+
+
+
+.tools{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    /* width: 30vw; */
+    margin-left: 7rem;
+   
+}
+
+.programming{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    /* width: 40vw; */
+    margin-left: 7rem;
+   
+}
+
+.hosting{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    /* width: 40vw; */
+    margin-left: 7rem;
+    
+   
+}
+
+.title-skills h1,h2,h3,h4,h5{
+    text-align:start;
+    margin-left: 7rem;
+}
+
+
+
+

@@ -1,0 +1,66 @@
+/* .background
+ { 
+     width: 90vw;
+  
+} */
+
+.image{
+    height: 20rem;
+}
+
+.card{
+    width:20rem;
+    /* padding-bottom: 10px; */
+    background-color: transparent;
+    border-color: transparent;
+    padding-top: 0px;
+    box-shadow: 5px 10px 20px 1px #010b1b !important;
+    
+}
+
+@media only screen and (max-width: 600px) {
+    .card{
+        width:18rem;
+        margin :10px;
+    }
+}
+
+.card:hover{
+    box-shadow: 5px 10px 20px 1px #000308 !important;
+}
+
+/* .card-body{
+    padding: 3rem 0 !important;
+} */
+
+.card-text{
+    font-size: 0.9rem;
+    padding: 0.4rem 1.9rem;
+}
+
+.container-fluid .row{
+    padding-top: 6rem;
+}
+.overflow{
+    overflow: hidden ;
+}
+
+.card-img-top{
+    transform:scale(1);
+     transition:transform 1.5s ease-in-out;
+}
+
+.card-img-top:hover{
+    transform:scale(1.8);
+
+}
+
+.card-body{
+    background:transparent; 
+
+}
+
+.card-title{
+    color:white;
+}
+

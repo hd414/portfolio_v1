@@ -1,0 +1,48 @@
+
+.sideNav_component{
+    width: 40px;
+    position: fixed;
+    bottom: 0;
+    left: 20px;
+    right: auto;
+    z-index: 10;
+}
+
+.sidenav{
+    display: flex;
+    flex-direction: column;
+    -webkit-box-align: center;
+    align-items: center;
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+
+.logos{
+    width: 40px;
+    height: 40px;
+    filter: invert(97%) sepia(53%) saturate(3%) hue-rotate(124deg) brightness(115%) contrast(100%);
+    padding-bottom: 20px;
+}
+
+.logos-github{
+    width: 40px;
+    height: 40px;
+    padding-bottom: 20px;
+    filter: invert(97%) sepia(53%) saturate(3%) hue-rotate(124deg) brightness(115%) contrast(100%);
+}
+
+.sidenav::after{
+    content: "";
+    display: block;
+    width: 1px;
+    height: 30vh;
+    margin: 0px auto;
+    background-color:#17ffa6;
+    z-index: -2;
+}
+
+.logos:hover ,.logos-github:hover{
+   transform: scale(1.2);
+   filter: invert(97%) sepia(53%) saturate(3%) hue-rotate(124deg) brightness(155%) contrast(100%);
+}

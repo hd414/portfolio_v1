@@ -1,0 +1,12 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color:  #0a192f;
+    width:100%;
+    height: 100vh;
+    /* background-image: url(../../assets/bg.png); */
+    background-position:top center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: poppins;
+}
