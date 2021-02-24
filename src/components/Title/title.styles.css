@@ -4,10 +4,10 @@
 }
 
 .get-in-touch-link{
-    color:  #17ffa6;
+    color:  #ccd6f6;
     background-color: transparent;
-    border: 1px solid  #17ffa6;
-    border-radius: 10px;
+    /* border: 1px solid  #17ffa6; */
+    /* border-radius: 10px; */
     padding: 1.25rem 1.75rem;
     font-size: 15px;
     line-height: 1;
@@ -16,10 +16,195 @@
 }
 
 .get-in-touch-link:hover{
-   opacity: 0.8;
+   opacity: 1;
    color:  #11ffa4;
 }
 
 .get-in-touch a{
    text-decoration: none;
+}
+
+/* 
+.draw-border {
+   box-shadow: inset 0 0 0 1px #e4e9eb;
+   border-radius: 10px;
+   color: #ccd6f6;
+   transition: color 0.25s 0.0833333333s;
+   position: relative;
+ }
+ .draw-border::before, .draw-border::after {
+   border: 0 solid transparent;
+   box-sizing: border-box;
+   content: "";
+   pointer-events: none;
+   position: absolute;
+   width: 0;
+   height: 0;
+   bottom: 0;
+   right: 0;
+ }
+ .draw-border::before {
+   border-bottom-width: 2px;
+   border-left-width: 2px;
+   border-radius: 10px;
+ }
+ .draw-border::after {
+   border-top-width: 2px;
+   border-right-width: 2px;
+   border-radius: 10px;
+ }
+ .draw-border:hover {
+   color: #11ffa4;
+ }
+ .draw-border:hover::before, .draw-border:hover::after {
+   border-color: #11ffa4;
+   transition: border-color 0s, width 0.25s, height 0.25s;
+   width: 100%;
+   height: 100%;
+ }
+ .draw-border:hover::before {
+   transition-delay: 0s, 0s, 0.25s;
+ }
+ .draw-border:hover::after {
+   transition-delay: 0s, 0.25s, 0s;
+ }
+ 
+ .btn {
+   background: none;
+   border: none;
+   cursor: pointer;
+   line-height: 1.5;
+   font: 700 1.2rem "Roboto Slab", sans-serif;
+   padding: 0.7em 0.75em;
+   
+ }
+ .btn:focus {
+   outline: 2px dotted #55d7dc;
+ }
+  */
+.name-logo{
+  position: absolute;
+  z-index:0;
+  top: 30%;
+  right: 30%;
+  /* background: #000046;  fallback for old browsers */
+/* background: -webkit-linear-gradient(to right, #1CB5E0, #000046);  Chrome 10-25, Safari 5.1-6 */
+/* background: linear-gradient(to right, #1CB5E0, #000046); W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+background: #000428;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to bottom, #004e92, #000428);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to bottom, #004e92, #000428); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+transition: 1s ease-in-out;
+}
+
+
+
+.name-logo:hover{
+  transform: translate3d(30px,-20px,0px);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.wrap {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.button {
+  min-width: 250px;
+  min-height: 50px;
+  font-family: 'Nunito', sans-serif;
+  font-size: 22px;
+  text-transform: uppercase;
+  letter-spacing: 1.3px;
+  font-weight: 600;
+  background: #4FD1C5;
+background: transparent;
+  border: none;
+  border-radius: 1000px;
+  /* box-shadow: 12px 12px 24px #010914; */
+  transition: all 0.3s ease-in-out 0s;
+  cursor: pointer;
+  outline: none;
+  position: absolute;
+  padding: 10px;
+  top: 100%;
+  left: 0%;
+  border:1px solid turquoise;
+  color:  #ccd6f6;
+    background-color: transparent;
+    /* border: 1px solid  #17ffa6; */
+    /* border-radius: 10px; */
+    padding: 1.25rem 1.75rem;
+    font-size: 15px;
+    line-height: 1;
+    text-decoration: none;
+    cursor: pointer;
+  }
+
+button::before {
+content: '';
+  border-radius: 1000px;
+  min-width: calc(250px + 12px);
+  min-height: calc(50px + 12px);
+  border: 3px solid #00FFCB;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  opacity: 0;
+  transition: all .3s ease-in-out 0s;
+}
+
+.button:hover, .button:focus {
+ outline: none;
+  border:none;
+  transform: translateY(-6px);
+}
+
+button:hover::before, button:focus::before {
+  opacity: 1;
+}
+
+button::after {
+  content: '';
+  width: 30px; height: 30px;
+  border-radius: 100%;
+  border: 1px solid #00FFCB;
+  position: absolute;
+  z-index: -1;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  animation: ring 1.5s infinite;
+}
+
+button:hover::after, button:focus::after {
+  animation: none;
+  display: none;
+}
+
+@keyframes ring {
+  0% {
+    width: 30px;
+    height: 30px;
+    opacity: 1;
+  }
+  100% {
+    width: 100px;
+    height: 100px;
+    opacity: 0;
+  }
 }

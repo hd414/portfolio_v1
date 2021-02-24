@@ -1,5 +1,78 @@
 .contact{
     text-align: center;
     font-size: x-large;
-    z-index: 20;
+    z-index: 1;
+}
+
+.contact-component{
+   color: #cad5fa;
+   margin: 1rem;
+}
+
+.mail{
+    color: #ccd6f6;
+    font-size: 1.5rem;
+    text-decoration: none; 
+}
+.mail:hover{
+    color: rgb(252, 249, 250);
+}
+
+.telephone-svg{
+    width: 3rem;
+    object-fit: contain;
+    margin-left: 2rem;
+}
+
+.contactHeader{
+    display: flex;
+    flex-direction: row;
+    flex-wrap:wrap-reverse;
+    justify-content: center;
+   
+}
+
+.contact-logos{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;       
+}
+
+.contact-logos{
+    width: 3.3rem;
+    object-fit: contain;
+    margin: 1rem;
+    padding: 0.5rem;
+    border: 1px solid black;
+    border-radius: 50%;
+}
+
+.contact-logos-link{
+    background-color: darkcyan
+}
+
+.contact-logos-link:hover{
+    background-color: rgb(211, 216, 216)
+}
+
+.contact-logos-github{
+    background-color: coral
+}
+.contact-logos-github:hover{
+    background-color: rgb(211, 216, 216)
+}
+.contact-logos-insta{
+    background-color: rgba(192, 11, 11, 0.11)
+}
+.contact-logos-insta:hover{
+    background-color: rgb(211, 216, 216)
+}
+
+.contact-logos-mail{
+    background-color: rgb(112, 5, 89)
+}
+
+.contact-logos-mail:hover{
+    background-color: rgb(211, 216, 216)
 }

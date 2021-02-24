@@ -3,9 +3,10 @@
     width: 40px;
     position: fixed;
     bottom: 0;
-    left: 20px;
-    right: auto;
+    right: 20px;
+    left: auto;
     z-index: 10;
+    visibility: visible;
 }
 
 .sidenav{
@@ -19,15 +20,15 @@
 }
 
 .logos{
-    width: 40px;
-    height: 40px;
+    object-fit: contain;
+    height: 45px;
     filter: invert(97%) sepia(53%) saturate(3%) hue-rotate(124deg) brightness(115%) contrast(100%);
     padding-bottom: 20px;
 }
 
 .logos-github{
-    width: 40px;
-    height: 40px;
+    object-fit: contain;
+    height:45px;
     padding-bottom: 20px;
     filter: invert(97%) sepia(53%) saturate(3%) hue-rotate(124deg) brightness(115%) contrast(100%);
 }
@@ -35,7 +36,7 @@
 .sidenav::after{
     content: "";
     display: block;
-    width: 1px;
+    width: 2px;
     height: 30vh;
     margin: 0px auto;
     background-color:#17ffa6;
@@ -45,4 +46,8 @@
 .logos:hover ,.logos-github:hover{
    transform: scale(1.2);
    filter: invert(97%) sepia(53%) saturate(3%) hue-rotate(124deg) brightness(155%) contrast(100%);
+}
+
+.hide.sideNav_component{
+    visibility: hidden;
 }

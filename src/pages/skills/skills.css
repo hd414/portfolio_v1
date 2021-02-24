@@ -38,8 +38,7 @@
     display: flex;
     flex-direction: column;
     color: white;
-    box-shadow: 3px 3px  #03132c;
-    margin: 1rem;
+    margin: 0.5rem;
 }
 
 .title-logo{
@@ -86,8 +85,24 @@
 .title-skills h1,h2,h3,h4,h5{
     text-align:start;
     margin-left: 7rem;
+
 }
 
 
 
+
+.contentContainer {
+   
+    padding: 20px;
+    margin: 15vh auto;
+   
+  }
+  
+
+  
+
+  .Proficiency{
+      margin-top: 2rem;
+      margin-bottom: 6rem;
+  }
 
