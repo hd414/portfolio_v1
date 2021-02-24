@@ -55,7 +55,7 @@ const About = () => {
       </div> */}
 
 
-      <div onClick={() => { history.push("/contact") }} class="contact-button" id="button-7">
+      <div onClick={() => { history.push("/contact") }} className="contact-button" id="button-7">
         <div id="dub-arrow">
           <img src={L_MSG} alt="message" />
         </div>

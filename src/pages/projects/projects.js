@@ -18,7 +18,7 @@ const Projects = () => {
 
             </div>
 
-            <div class="contact-button" id="button-7">
+            <div className="contact-button" id="button-7">
                 <div id="dub-arrow">
                     <img src={L_MSG} alt="message" />
                 </div>

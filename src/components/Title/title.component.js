@@ -34,7 +34,7 @@ const TitleMessage = () => (
       {/* <div className="get-in-touch btn draw-border">
         <a className="get-in-touch-link" href="mailto:himanshuagarwal9856@gmail.com@gmail.com">Get in Touch</a>
       </div> */}
-      <div class="wrap">
+      <div className="wrap">
         <a className="get-in-touch-link" href="mailto:himanshuagarwal9856@gmail.com@gmail.com"><button className="button get-in-touch-link">Get in Touch</button></a>
       </div>
     </MyTitleMessage>

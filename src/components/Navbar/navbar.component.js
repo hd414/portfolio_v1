@@ -12,11 +12,11 @@ const Navbar = () => {
             <nav className="navigation">
 
                 <Link to="/" className="logo">
-                    <img className="logo-svg" src={logo} style={{ height: "60px", width: "60px" }} />
+                    <img className="logo-svg" src={logo} style={{ height: "60px", width: "60px" }} alt="logo" />
                 </Link>
 
                 <input type="checkbox" className="menu-btn" id="menu-btn" />
-                <label for="menu-btn" className="menu-icon">
+                <label htmlFor="menu-btn" className="menu-icon">
                     <span className="nav-icon"></span>
                 </label>
 
