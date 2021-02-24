@@ -1,15 +1,18 @@
 import React from 'react';
 import './navbar.styles.css';
-import logo from '../../assets/logo4.png';
-import { Link } from 'react-router-dom';
+import logo from '../../assets/letterh.svg';
+import { Link, useLocation } from 'react-router-dom';
 const Navbar = () => {
+
+    const location = useLocation();
+
     return (
         <div>
 
             <nav className="navigation">
 
                 <a as={Link} to="/" href="#home" className="logo">
-                    <img src={logo} style={{ height: "60px", width: "60px" }} />
+                    <img className="logo-svg" src={logo} style={{ height: "60px", width: "60px" }} />
                 </a>
 
                 <input type="checkbox" className="menu-btn" id="menu-btn" />
@@ -18,11 +21,11 @@ const Navbar = () => {
                 </label>
 
                 <ul className="menu">
-                    <li><Link style={{ textDecoration: 'none' }} to="/" className="a">Home</Link  ></li>
-                    <li><Link style={{ textDecoration: 'none' }} to="/about">About</Link  ></li>
-                    <li><Link style={{ textDecoration: 'none' }} to="/skills">Skills</Link  ></li>
-                    <li><Link style={{ textDecoration: 'none' }} to="/projects">Projects</Link  ></li>
-                    <li><Link style={{ textDecoration: 'none' }} to="/contact">Contact</Link  ></li>
+                    <li><Link style={{ textDecoration: 'none' }} to="/" className={` ${location.pathname === '/' ? 'active-link' : ''}`}>Home</Link  ></li>
+                    <li><Link style={{ textDecoration: 'none' }} to="/about" className={` ${location.pathname === '/about' ? 'active-link' : ''}`}>About</Link  ></li>
+                    <li><Link style={{ textDecoration: 'none' }} to="/skills" className={` ${location.pathname === '/skills' ? 'active-link' : ''}`}>Skills</Link  ></li>
+                    <li><Link style={{ textDecoration: 'none' }} to="/projects" className={` ${location.pathname === '/projects' ? 'active-link' : ''}`}>Projects</Link  ></li>
+                    <li><Link style={{ textDecoration: 'none' }} to="/contact" className={` ${location.pathname === '/contact' ? 'active-link' : ''}`}>Contact</Link  ></li>
                 </ul>
 
                 <Link style={{ textDecoration: 'none' }} to="/resune" className="sign-up-btn">Resume</Link  >
@@ -33,16 +36,16 @@ const Navbar = () => {
                 <nav className="nav-2">
 
                     <ul className="menu-2">
-                        <li><Link style={{ textDecoration: 'none' }} to="/" className="a">Home</Link  ></li>
-                        <li><Link style={{ textDecoration: 'none' }} to="/about">About</Link  ></li>
-                        <li><Link style={{ textDecoration: 'none' }} to="/skills">Skills</Link  ></li>
-                        <li><Link style={{ textDecoration: 'none' }} to="/projects">Projects</Link  ></li>
-                        <li><Link style={{ textDecoration: 'none' }} to="/contact">Contact</Link  ></li>
+                        <li><Link style={{ textDecoration: 'none' }} to="/" className={` ${location.pathname === '/' ? 'active-link' : ''}`}>Home</Link  ></li>
+                        <li><Link style={{ textDecoration: 'none' }} to="/about" className={` ${location.pathname === '/about' ? 'active-link' : ''}`}>About</Link  ></li>
+                        <li><Link style={{ textDecoration: 'none' }} to="/skills" className={` ${location.pathname === '/skills' ? 'active-link' : ''}`}>Skills</Link  ></li>
+                        <li><Link style={{ textDecoration: 'none' }} to="/projects" className={` ${location.pathname === '/projects' ? 'active-link' : ''}`}>Projects</Link  ></li>
+                        <li><Link style={{ textDecoration: 'none' }} to="/contact" className={` ${location.pathname === '/contact' ? 'active-link' : ''}`}>Contact</Link  ></li>
                     </ul>
                     <Link style={{ textDecoration: 'none' }} to="/resune" className="sign-up-btn-2">Resume</Link  >
                 </nav>
             </nav>
-        </div>
+        </div >
     );
 }
 
