@@ -2,6 +2,7 @@ import React from 'react'
 import ProjectCard from '../../components/Project-card/project.card.component';
 import './projects.css';
 import { ProjectData } from './project.data';
+import L_MSG from "../../assets/svg/github.svg";
 
 const Projects = () => {
     return (
@@ -17,7 +18,7 @@ const Projects = () => {
 
             </div>
 
-            <div onClick={() => { history.push("/contact") }} class="contact-button" id="button-7">
+            <div class="contact-button" id="button-7">
                 <div id="dub-arrow">
                     <img src={L_MSG} alt="message" />
                 </div>
