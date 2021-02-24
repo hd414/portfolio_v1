@@ -4,23 +4,25 @@ import Github from '../../assets/svg/github.svg';
 import Gmail from '../../assets/svg/gmail.svg';
 import Insta from '../../assets/svg/instagram.svg';
 import Linkedin from '../../assets/svg/linkedin.svg';
+import { useLocation } from 'react-router-dom';
 
 const Sidenav = () => {
+    const location = useLocation();
     return (
-        <div id="sidenav" className="sideNav_component">
+        <div id="sidenav" className={`sideNav_component ${location.pathname === "/contact" ? 'hide' : null}`} >
             <ul className="sidenav">
                 <li><a target="_blank" href="https://github.com/hd414">
-                    <img src={Github}  alt="github" className="logos-github"/>
-                    </a></li>
+                    <img src={Github} alt="github" className="logos-github" />
+                </a></li>
                 <li><a target="_blank" href="https://www.linkedin.com/in/himanshu-dodrajka-8385231b9/">
-                <img src={Linkedin} alt="github" className="logos"/>
-                    </a></li>
+                    <img src={Linkedin} alt="github" className="logos" />
+                </a></li>
                 <li><a target="_blank" href="https://www.instagram.com/himan_shu414/">
-                <img src={Insta} alt="github" className="logos"/>
-                    </a></li> 
+                    <img src={Insta} alt="github" className="logos" />
+                </a></li>
                 <li>  <a target="_blank" href="mailto:himanshuagarwal9856@gmail.com@gmail.com">
-                <img src={Gmail} alt="github" className="logos"/>
-                    </a></li>
+                    <img src={Gmail} alt="github" className="logos" />
+                </a></li>
             </ul>
         </div>
     )
