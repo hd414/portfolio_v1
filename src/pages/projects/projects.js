@@ -17,13 +17,14 @@ const Projects = () => {
                 }
 
             </div>
-
-            <div className="contact-button" id="button-7">
-                <div id="dub-arrow">
-                    <img src={L_MSG} alt="message" />
+            <a target="_blank" href="https://github.com/hd414">
+                <div className="contact-button" id="button-7">
+                    <div id="dub-arrow">
+                        <img src={L_MSG} alt="message" />
+                    </div>
+                    <a target="_blank" href="https://github.com/hd414">More Projects</a>
                 </div>
-                <a target="_blank" href="https://github.com/hd414">More Projects</a>
-            </div>
+            </a>
 
 
         </div>
