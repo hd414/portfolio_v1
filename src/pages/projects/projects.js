@@ -2,7 +2,7 @@ import React from 'react'
 import ProjectCard from '../../components/Project-card/project.card.component';
 import './projects.css';
 import { ProjectData } from './project.data';
-import L_MSG from "../../assets/svg/github.svg";
+import L_MSG from "../../assets/svg/github-logo.svg";
 
 const Projects = () => {
     return (
