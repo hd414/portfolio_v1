@@ -28,7 +28,7 @@ const Navbar = () => {
                     <li><Link style={{ textDecoration: 'none' }} to="/contact" className={` ${location.pathname === '/contact' ? 'active-link' : ''}`}>Contact</Link  ></li>
                 </ul>
 
-                <Link style={{ textDecoration: 'none' }} to="/resune" className="sign-up-btn">Resume</Link  >
+                <a style={{ textDecoration: 'none' }} href="./cv.pdf" className="sign-up-btn">Resume</a>
 
 
 
@@ -42,7 +42,7 @@ const Navbar = () => {
                         <li><Link style={{ textDecoration: 'none' }} to="/projects" className={` ${location.pathname === '/projects' ? 'active-link' : ''}`}>Projects</Link  ></li>
                         <li><Link style={{ textDecoration: 'none' }} to="/contact" className={` ${location.pathname === '/contact' ? 'active-link' : ''}`}>Contact</Link  ></li>
                     </ul>
-                    <Link style={{ textDecoration: 'none' }} to="/resune" className="sign-up-btn-2">Resume</Link  >
+                    <a style={{ textDecoration: 'none' }} href="./cv.pdf" className="sign-up-btn-2">Resume</a>
                 </nav>
             </nav>
         </div >
