@@ -12,12 +12,14 @@ export const MyTitleMessage = styled.h1`
     font-size: 4rem;
   }
   div {
-    color: #8892b0;
+   
     text-shadow: 0px 2px 5px rgba(0, 0, 0, 0.4);
     font-weight: 100;
     letter-spacing: 7px;
     .main {
-      font-size: 2rem;
+      font-size: 1.4rem;
+      font-weight:500;
+      color:#64ffda;
       
     }
     @media only screen and (max-width: 600px) {

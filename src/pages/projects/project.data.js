@@ -27,24 +27,29 @@ import L_CPP from '../../assets/img/skills/c++.svg';
 import L_FIREBASE from '../../assets/img/skills/firebase.svg';
 import L_NPM from '../../assets/img/skills/npm.svg';
 import L_PHP from '../../assets/img/skills/php.svg';
-
+import IMG_netflix from '../../assets/gif/netflix.jpg';
+import IMG_fashionin from '../../assets/gif/fashionin.jpg';
+import IMG_foodie from '../../assets/gif/foodie.jpg';
+import IMG_portfolio from '../../assets/gif/portfolio.jpg';
 export const ProjectData = [
 
     {
         id: 1,
-        name: "hd-netflics",
+        name: "Movieflics",
         description: "A clone of Netflix . A single page online streaming web app with many functionality",
         tech: [L_REACT, L_FIREBASE, L_STYLED_COMPONENTS],
         github: 'https://github.com/hd414/netflix-clone',
-        website: 'https://hd-netflics.herokuapp.com/',
+        website: 'https://movieflics.herokuapp.com/',
+        image: IMG_netflix,
     },
     {
         id: 2,
-        name: "Myntra Clone",
+        name: "Fashionin",
         description: "A single page online clothes purchasing website with many features",
         tech: [L_REACT, L_FIREBASE, L_SASS],
         github: 'https://github.com/hd414/myntra_clone',
         website: 'https://fashionin.herokuapp.com/',
+        image: IMG_fashionin
     },
     {
         id: 2,
@@ -53,6 +58,7 @@ export const ProjectData = [
         tech: [L_HTML5, L_CSS3, L_PHP],
         github: 'https://github.com/hd414/foodie',
         website: null,
+        image: IMG_foodie,
     },
     {
         id: 3,
@@ -61,14 +67,15 @@ export const ProjectData = [
         tech: [L_REACT, L_CSS3, L_REACT_ROUTER, L_FIREBASE],
         github: 'https://github.com/hd414/portfolio_v1',
         website: null,
+        image: IMG_portfolio,
     },
-    {
-        id: 4,
-        name: "YelpCamp",
-        description: "This helps to find the most beautiful and affordable camp-site for you",
-        tech: [L_HTML5, L_CSS3, L_NODE_JS, L_EXPRESS],
-        github: 'https://github.com/hd414/find_camp',
-        website: null,
-    },
+    // {
+    //     id: 4,
+    //     name: "YelpCamp",
+    //     description: "This helps to find the most beautiful and affordable camp-site for you",
+    //     tech: [L_HTML5, L_CSS3, L_NODE_JS, L_EXPRESS],
+    //     github: 'https://github.com/hd414/find_camp',
+    //     website: null,
+    // },
 
 ]

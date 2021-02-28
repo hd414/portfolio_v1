@@ -1,34 +1,39 @@
 import React from 'react';
 import './project.card.styles.css';
-import GitHub from '../../assets/img/skills/github.svg';
-import Link from '../../assets/img/skills/external-link.svg';
-const ProjectCard = ({ name, description, tech, github, website }) => {
+
+const ProjectCard = ({ name, description, tech, github, website, image }) => {
     return (
         <div>
 
-            <a style={{ textDecoration: "none" }} className="card1" href="#">
+            <a style={{ textDecoration: "none" }} className="card1" href={website ? website : github}>
                 <h3 className="project-name">{name}</h3>
                 <p className="small project-desc">{description}</p>
                 <p className="">{tech.map((tech) => (
                     <img className="tech-logos" src={tech} />
                 ))}</p>
-                <div className="go-corner" href="#">
-                    <div className="go-arrow">
-                        <a target="_blank" href={github}>
-                            <img src={GitHub} alt="github" className="logopro" />
+                <div>
+                    <div>
+                        <a className="icon" target="_blank" href={github}>
+                            <i className="fab fa-github">
+                            </i>
                         </a>
 
                         {
-                            website ? (<a target="_blank" href={website}>
-                                <img src={Link} alt="website" style={{ marginLeft: "2rem" }} className="logopro" />
+                            website ? (<a className="icon" target="_blank" href={website}>
+                                <i className="fas fa-link">
+                                </i>
                             </a>) :
                                 <spna></spna>
                         }
                     </div>
                 </div>
+                <div className="layout"></div>
             </a>
 
-        </div>
+
+
+
+        </div >
     );
 }
 

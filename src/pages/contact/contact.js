@@ -27,8 +27,8 @@ const Contact = () => {
 
                 </div>
             </div>
-            <div style={{ display: "flex", marginLeft: "35%", flexDirection: 'column' }}>
-                <a className="mail" style={{ textDecoration: "none" }} href="mailto:himanshuagarwal9856@gmail.com@gmail.com">himanshuagarwal9856@gmail.com@gmail.com</a>
+            <div style={{ display: "flex", margin: "auto", flexDirection: 'column', width: "30%" }}>
+                <a className="mail" style={{ textDecoration: "none", fontSize: "1rem", textAlign: "center" }} href="mailto:himanshuagarwal9856@gmail.com@gmail.com">himanshuagarwal9856@gmail.com@gmail.com</a>
                 <ul style={{ display: "flex", flexDirection: "row" }} >
                     <li><a target="_blank" href="https://github.com/hd414">
                         <img src={Github} alt="github" className="contact-logos contact-logos-github" />

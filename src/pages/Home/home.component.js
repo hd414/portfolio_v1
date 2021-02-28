@@ -13,9 +13,7 @@ const Home = () => {
                     <div></div><div></div><div></div>
                     <div></div><div></div><div></div>
                     <div></div><div></div><div></div>
-                    <div></div><div></div><div></div>
-                    <div></div><div></div><div></div>
-                    <div></div><div></div><div></div>
+
                 </div>
                 <div className="effect effect3"></div>
                 <div className="effect effect4"></div>
@@ -23,7 +21,7 @@ const Home = () => {
                     <div></div><div></div><div></div>
                     <div></div><div></div><div></div>
                     <div></div><div></div><div></div>
-                    <div></div><div></div><div></div>
+
                 </div>
                 <div className="effect effect6"></div>
                 <div className="effect effect7"></div>

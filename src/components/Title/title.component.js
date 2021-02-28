@@ -15,11 +15,12 @@ const TitleMessage = () => (
             Hi, I am
           <br />
             <span>
-              <strong style={{ color: "#ccd6f6" }}>Himanshu Dodrajka</strong>
+              <strong style={{ color: "#ccd6f6", color: '#f3f3f3', fontWeight: "700", letterSpacing: "0.2rem" }}>Himanshu Dodrajka</strong>
             </span>
           </div>
           <div className="sub">
             <Typewriter
+
               options={{
                 strings: ["Web Developer", "Coder", "Learner"],
                 autoStart: true,
