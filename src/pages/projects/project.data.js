@@ -69,13 +69,13 @@ export const ProjectData = [
         website: null,
         image: IMG_portfolio,
     },
-    // {
-    //     id: 4,
-    //     name: "YelpCamp",
-    //     description: "This helps to find the most beautiful and affordable camp-site for you",
-    //     tech: [L_HTML5, L_CSS3, L_NODE_JS, L_EXPRESS],
-    //     github: 'https://github.com/hd414/find_camp',
-    //     website: null,
-    // },
+    {
+        id: 4,
+        name: "YelpCamp",
+        description: "This helps to find the most beautiful and affordable camp-site for you",
+        tech: [L_HTML5, L_CSS3, L_NODE_JS, L_EXPRESS],
+        github: 'https://github.com/hd414/find_camp',
+        website: null,
+    },
 
 ]
