@@ -85,7 +85,7 @@ body{
 
 .effect4{
     border-top: 30px solid transparent;
-    border-left: 30px solid rgb(244, 248, 10) ;
+    border-left: 30px solid rgba(1, 1, 88, 0.596) ;
     left: 30%;
     top:20%; 
     animation : spin 15s linear infinite;
@@ -93,7 +93,7 @@ body{
 .effect4::before{
     content: '';
     border-top: 30px solid transparent;
-    border-left: 30px solid rgb(244, 248, 10);
+    border-left: 30px solid rgb(25, 2, 109);
     position: absolute;
     opacity: 0.4;
     left: -35px;

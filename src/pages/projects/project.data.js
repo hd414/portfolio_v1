@@ -35,24 +35,33 @@ export const ProjectData = [
 
     {
         id: 1,
+        name: "Ebuy",
+        description: "Ecommerce website where local shops can sell their products to nearby residents.",
+        tech: [L_REACT, L_NODE_JS, L_CSS3, L_EXPRESS, L_MONGODB],
+        github: 'https://github.com/hd414/Ebuy',
+        website: 'https://ebuy-now.herokuapp.com/',
+        image: IMG_netflix,
+    },
+    {
+        id: 2,
         name: "Movieflics",
         description: "A clone of Netflix . A single page online streaming web app with many functionality",
-        tech: [L_REACT, L_FIREBASE, L_STYLED_COMPONENTS],
+        tech: [L_REACT, L_FIREBASE, L_STYLED_COMPONENTS, L_SASS],
         github: 'https://github.com/hd414/netflix-clone',
         website: 'https://movieflics.herokuapp.com/',
         image: IMG_netflix,
     },
     {
-        id: 2,
-        name: "Fashionin",
-        description: "A single page online clothes purchasing website with many features",
-        tech: [L_REACT, L_FIREBASE, L_SASS],
-        github: 'https://github.com/hd414/myntra_clone',
-        website: 'https://fashionin.herokuapp.com/',
-        image: IMG_fashionin
+        id: 3,
+        name: "ConnectU5",
+        description: "A social media web app",
+        tech: [L_REACT, L_FIREBASE, L_STYLED_COMPONENTS, L_CSS3, L_SASS],
+        github: 'https://github.com/hd414/connect_v1',
+        website: 'https://connectu5.herokuapp.com/',
+        image: IMG_foodie,
     },
     {
-        id: 2,
+        id: 4,
         name: "foodie",
         description: "a food ordering website with many features ",
         tech: [L_HTML5, L_CSS3, L_PHP],
@@ -61,7 +70,7 @@ export const ProjectData = [
         image: IMG_foodie,
     },
     {
-        id: 3,
+        id: 5,
         name: "Portfolio",
         description: "Software developer portfolio tempelate which can help you to showcase your skills and projects",
         tech: [L_REACT, L_CSS3, L_REACT_ROUTER, L_FIREBASE],
@@ -69,13 +78,6 @@ export const ProjectData = [
         website: null,
         image: IMG_portfolio,
     },
-    {
-        id: 4,
-        name: "YelpCamp",
-        description: "This helps to find the most beautiful and affordable camp-site for you",
-        tech: [L_HTML5, L_CSS3, L_NODE_JS, L_EXPRESS],
-        github: 'https://github.com/hd414/find_camp',
-        website: null,
-    },
+
 
 ]
