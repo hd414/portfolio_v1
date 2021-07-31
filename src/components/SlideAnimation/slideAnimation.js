@@ -12,7 +12,7 @@ const SlideAnimation = () => {
         setClasses(classes => ("left-layer"));
         setTimeout(() => {
             setClasses(classes => ("left-layer" + " active"));
-        }, 500);
+        }, 400);
     }, [])
 
 
