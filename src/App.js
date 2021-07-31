@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import { Route, Switch } from 'react-router-dom';
 import './App.css';
 import Navbar from './components/Navbar/navbar.component';
@@ -12,9 +12,14 @@ import Skills from './pages/skills/skills';
 import Projects from './pages/projects/projects';
 
 
+
 function App() {
+
+
   return (
+
     <div className="App">
+
 
       <Navbar />
       <Sidenav />

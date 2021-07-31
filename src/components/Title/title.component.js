@@ -13,7 +13,7 @@ const TitleMessage = () => (
         <div className="heading">
           <div className="main">
             Hi, I am
-          <br />
+            <br />
             <span>
               <strong style={{ color: "#ccd6f6", color: '#f3f3f3', fontWeight: "700", letterSpacing: "0.2rem" }}>Himanshu Dodrajka</strong>
             </span>

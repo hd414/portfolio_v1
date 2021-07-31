@@ -1,0 +1,12 @@
+.dark{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: -100%;
+    bottom: auto;
+    right: auto;
+    background: #4d606e;
+    transition: all 1s cubic-bezier(0.645, 0.045, 0.355, 1);
+    z-index: 10000;
+}

@@ -1,15 +1,26 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import './contact.css';
 import L_TELEPHONE from '../../assets/svg/telephone.svg'
 import Github from '../../assets/svg/github.svg';
 import Gmail from '../../assets/svg/gmail.svg';
 import Insta from '../../assets/svg/instagram.svg';
 import Linkedin from '../../assets/svg/linkedin.svg';
+import SlideAnimation from '../../components/SlideAnimation/slideAnimation';
+import '../styles.css';
 
 const Contact = () => {
+    const [darkClass, setdarkClass] = useState('dark');
+
+    useEffect(() => {
+        window.setTimeout(() => {
+            setdarkClass('');
+        }, 1000)
+    }, [])
+
     return (
         <div>
-            <div >
+            <SlideAnimation />
+            <div className={darkClass}>
                 <div className="contactHeader">
                     <h1 style={{ color: "#ccd6f6", paddingTop: '2rem', fontSize: "3rem" }}>Get in Touch</h1>
                     <img src={L_TELEPHONE} alt="telephone" className="telephone-svg" />
@@ -17,9 +28,9 @@ const Contact = () => {
                 <div className="contact-component">
                     <div className="contact">
                         I am available on almost every social media.<br /> my inbox is always open.
-                  Whether you have a question or <br /> just want to say hi, I'll try my best to get back to you!,
-                  <br />Till than Enjoy My portfolio.
-                  <br />
+                        Whether you have a question or <br /> just want to say hi, I'll try my best to get back to you!,
+                        <br />Till than Enjoy My portfolio.
+                        <br />
                         <br />
                         <br />
 

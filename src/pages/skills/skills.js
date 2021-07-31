@@ -1,12 +1,24 @@
-import React from 'react'
+import React, { useEffect, useState } from 'react'
 import ProgressBar from '../../components/progressBar/progress_bar.component';
+import SlideAnimation from '../../components/SlideAnimation/slideAnimation';
 import './skills.css';
 import { skills } from './skills.data';
+import '../styles.css';
 
 const Skills = () => {
+
+  const [darkClass, setdarkClass] = useState('dark');
+
+  useEffect(() => {
+    window.setTimeout(() => {
+      setdarkClass('');
+    }, 1000)
+  }, [])
+
   return (
     <div>
-      <div className="title-skills">
+      <SlideAnimation />
+      <div className="title-skills" className={darkClass}>
 
         <div className="Proficiency">
           <h1 style={{ color: "#8892b0" }}>Proficiency</h1>
