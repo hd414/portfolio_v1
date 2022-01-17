@@ -21,7 +21,7 @@ const Skills = () => {
       <div className="title-skills" className={darkClass}>
 
         <div className="Proficiency">
-          <h1 style={{ color: "#8892b0" }}>Proficiency</h1>
+          <h1 style={{ color: "#8892b0", marginLeft: "3vw" }}>Proficiency</h1>
           <ProgressBar title={"C++"} value={"90"} />
           <ProgressBar title={"REACT"} value={"60"} />
           <ProgressBar title={"JavaSCript"} value={"70"} />
@@ -30,7 +30,7 @@ const Skills = () => {
         </div>
 
 
-        <h1 style={{ color: "#8892b0" }}>Technical skills</h1>
+        <h1 style={{ color: "#8892b0", marginLeft: "3vw" }}>Technical skills</h1>
         <div >
           <br />
           <br />

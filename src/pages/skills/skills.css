@@ -8,7 +8,7 @@
     flex-direction: row;
     flex-wrap: wrap;
     /* width: 40vw; */
-    margin-left: 7rem;
+    margin-left: 5vw;
    
 }
 
@@ -17,7 +17,7 @@
     flex-direction: row;
     flex-wrap: wrap;
     /* width: 30vw; */
-    margin-left: 7rem;
+    margin-left: 5vw;
 }
 /* 
 .frontend-card{
@@ -59,7 +59,7 @@
     flex-direction: row;
     flex-wrap: wrap;
     /* width: 30vw; */
-    margin-left: 7rem;
+    margin-left: 5vw;
    
 }
 
@@ -68,7 +68,7 @@
     flex-direction: row;
     flex-wrap: wrap;
     /* width: 40vw; */
-    margin-left: 7rem;
+    margin-left: 5vw;
    
 }
 
@@ -77,14 +77,14 @@
     flex-direction: row;
     flex-wrap: wrap;
     /* width: 40vw; */
-    margin-left: 7rem;
+    margin-left: 5vw;
     
    
 }
 
 .title-skills h1,h2,h3,h4,h5{
     text-align:start;
-    margin-left: 7rem;
+    margin-left: 5vw;
 
 }
 

@@ -27,25 +27,22 @@
 
 @media only screen and (max-width: 600px) {
     .about-component{
-        margin: 25px 10vw;
+        margin: 15px 2vw;
         color:#f3f3f3;
         display: flex;
         justify-content: center;
         flex-direction: column;
     }
     .left{
-       
-       
         text-align: center;
-        width: 80vw;
+        width: 85vw;
         font-size: larger;
     }
     
     .right{
         flex: 1;
-       
         text-align: center;
-        width: 80vw;
+        width: 70vw;
         font-size: larger;
         padding-left: 0;
     }
@@ -53,17 +50,17 @@
 
 
 .about-svg{
-    height: 15vh;
+  height: 15vh;
   object-fit: contain;
   margin: 1vw;
 }
 
 .svg-about-div{
-   
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
+    /* max-width: 80vw; */
 }
 
 
@@ -135,11 +132,25 @@
     left: 150px;
   }
   
-  @media screen and (min-width:1000px) {
+  @media screen and (max-width:1000px) {
     h1 {
       font-size: 2.2em;
     }
     #container {
       width: 50%;
+    }
+    .about-svg{
+      height: 10vh;
+      object-fit: contain;
+      margin: 2vw;
+    }
+
+    .svg-about-div{
+      max-width: 80vw;
+      margin: auto;
+    }
+
+    .contact-button{
+      margin-left: 25vw;
     }
   }

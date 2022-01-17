@@ -1,6 +1,6 @@
 .contact{
     text-align: center;
-    font-size: x-large;
+    font-size: 1.2rem;
     z-index: 1;
 }
 
@@ -29,7 +29,8 @@
     flex-direction: row;
     flex-wrap:wrap-reverse;
     justify-content: center;
-   
+     color: #ccd6f6;
+     padding-top: 2rem; 
 }
 
 .contact-logos{
@@ -40,7 +41,7 @@
 }
 
 .contact-logos{
-    width: 3.3rem;
+    width: 3rem;
     object-fit: contain;
     margin: 1rem;
     padding: 0.5rem;
@@ -75,4 +76,10 @@
 
 .contact-logos-mail:hover{
     background-color: rgb(211, 216, 216)
+}
+
+.contact_details{
+    display: flex;
+    flex-direction: column;
+    
 }

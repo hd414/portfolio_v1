@@ -22,7 +22,7 @@ const Contact = () => {
             <SlideAnimation />
             <div className={darkClass}>
                 <div className="contactHeader">
-                    <h1 style={{ color: "#ccd6f6", paddingTop: '2rem', fontSize: "3rem" }}>Get in Touch</h1>
+                    <h1>Get in Touch</h1>
                     <img src={L_TELEPHONE} alt="telephone" className="telephone-svg" />
                 </div>
                 <div className="contact-component">
@@ -38,9 +38,17 @@ const Contact = () => {
 
                 </div>
             </div>
-            <div style={{ display: "flex", margin: "auto", flexDirection: 'column', width: "30%" }}>
-                <a className="mail" style={{ textDecoration: "none", fontSize: "1rem", textAlign: "center" }} href="mailto:himanshuagarwal9856@gmail.com@gmail.com">himanshuagarwal9856@gmail.com@gmail.com</a>
-                <ul style={{ display: "flex", flexDirection: "row" }} >
+            <div className='contact_details'>
+                <a className="mail" style={{ textDecoration: "none", fontSize: "1rem", textAlign: "center", color: 'aqua' }} href="mailto:himanshuagarwal9856@gmail.com@gmail.com">himanshuagarwal9856@gmail.com@gmail.com</a>
+                <ul style={{
+                    display: "flex",
+                    flexDirection: "row",
+                    justifyContent: "center",
+                    alignItems: "center",
+                    maxWidth: '80vw',
+                    margin: 'auto'
+
+                }} >
                     <li><a target="_blank" href="https://github.com/hd414">
                         <img src={Github} alt="github" className="contact-logos contact-logos-github" />
                     </a></li>

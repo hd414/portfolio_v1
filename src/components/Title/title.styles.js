@@ -8,6 +8,13 @@ export const MyTitleMessage = styled.h1`
   text-align: left;
   margin-left:6rem;
   color:white;
+  
+  @media only screen and (max-width: 600px) {
+    margin-left: 2rem;
+    top: 20rem;
+    max-width: 50vw;
+  }
+
   strong {
     font-size: 4rem;
   }
@@ -20,24 +27,33 @@ export const MyTitleMessage = styled.h1`
       font-size: 1.4rem;
       font-weight:500;
       color:#64ffda;
+
+      .name{
+         color : #f3f3f3;
+         font-weight : 700; 
+         letter-spacing: 0.2rem 
+      }
       
     }
     @media only screen and (max-width: 600px) {
   .main{
-    font-size: 30px;
+    font-size: 1.4rem;
+     
+    .name{
+      font-weight : 600;
+      font-size : 3rem;
+    }
   }
+  .sub{
+     font-size: 1rem;
+      letter-spacing: 2px;
+      font-weight:500;
+    }
 }
     .sub {
       font-size: 4rem;
       letter-spacing: 2px;
       font-weight:800;
     }
-    @media only screen and (max-width: 600px) {
-  .sub{
-    font-size: 15px;
-      letter-spacing: 2px;
-      font-weight:500;
-    }
-    
-   }
+
   }`;

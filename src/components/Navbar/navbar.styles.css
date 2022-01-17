@@ -38,17 +38,18 @@ ul{
 .menu li a{
     color: #ffffffcc;
 }
-.sign-up-btn,
+
 .sign-up-btn-2{
-    color: #17ffa6;
+    color: #a9b1ae;
     border: 1px solid #17ffa6 ;
-    padding: 0.55rem 1rem;
+   
 }
 
 .sign-up-btn{
     color: #17ffa6;
     border: 1px solid #17ffa6 ;
     border-radius:5px;
+    padding: 0.55rem 1rem;
 }
 .sign-up-btn-2{
     border:none;
@@ -134,7 +135,9 @@ ul{
         display: none;
     }
     .nav-2{
-        display: block;
+        display: flex;
+        justify-content: center;
+        align-items: center;
         position: fixed;
         left: 0px;
         top: 0px;
@@ -157,13 +160,17 @@ ul{
         color: #ffffff;
         margin: 0px;
         padding: 20px 0px;
-        font-size: 45px;
+        font-size: 2rem;
+    }
+
+    .menu-2 li a{
+        color: rgb(207, 206, 206);
     }
     .sign-up-btn-2{
-        font-size: 45px;
+        font-size:2rem;
     }
     .sign-up-btn-2 i{
-        font-size: 45px;
+        font-size: 2rem;
     }
     nav .menu-btn:checked ~ .nav-2{
         display: flex;
@@ -192,4 +199,8 @@ background: linear-gradient(to right, #E9E4F0, #D3CCE3); /* W3C, IE 10+/ Edge, F
 
 .menu-2 li .active-link{
     color: #02fd9d;
+}
+
+@media only screen and (max-width:600px){
+
 }
