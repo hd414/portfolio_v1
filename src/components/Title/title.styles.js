@@ -12,7 +12,7 @@ export const MyTitleMessage = styled.h1`
   @media only screen and (max-width: 600px) {
     margin-left: 2rem;
     top: 20rem;
-    max-width: 50vw;
+    max-width: 70vw;
   }
 
   strong {
@@ -28,7 +28,7 @@ export const MyTitleMessage = styled.h1`
       font-weight:500;
       color:#64ffda;
 
-      .name{
+      .name-logo{
          color : #f3f3f3;
          font-weight : 700; 
          letter-spacing: 0.2rem 
